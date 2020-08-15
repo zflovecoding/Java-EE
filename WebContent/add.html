@@ -1,0 +1,46 @@
+  <!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="UTF-8">
+			<title>注册</title>
+	</head>
+	<body>
+		<form action=" UserServlet" method="post">
+		<table border="1" align="center">
+	          	<tr>
+	          	   <td width="90" height="47">用户ID</td>
+          	      <td width="182"><input type="text" name="userid"/></td>
+	          	</tr>
+	          	<tr>
+	          	   <td height="43">账号密码</td>
+	          	   <td><input type="password" name="pwd"/></td>
+	          	</tr>
+	          	<tr>
+	          	   <td height="43">姓名</td>
+	          	   <td><input type="text" name="uname"/></td>
+	          	</tr>
+	          	<tr>
+	          	   <td height="41">年龄</td>
+	          	   <td><input type="text" name="age"/></td>
+	          	</tr>
+	          	<tr>
+	          	   <td height="45">性别</td>
+	          	   <td>
+	          	      <input name="gender" type="radio" value="male" />male
+	          	      <input name="gender" type="radio" value="female"/>female
+          	      </td>
+	          	</tr>
+	          	
+	          	<tr>
+	          	   <td height="46">地址</td>
+	          	   <td><input type="text" name="address"/></td>
+	          	</tr>
+	          	<tr>
+	          		<td></td>
+	          		<td><input type="submit" value="注册"/></td>
+	          	</tr>
+	      </table>
+	      <input type = "hidden" name = "from" value= "add" />
+    </form>
+	</body>
+</html>
